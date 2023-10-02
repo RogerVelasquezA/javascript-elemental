@@ -23,8 +23,8 @@ const tony = {
     trajes: ['Mark I', 'Mark II'],
 };
 
-const imprimirPersonajes = ({nombre, codeName, vivo, edad,trajes, area="informatica"}) =>{
- 
+const imprimirPersonajes = ({nombre, codeName, vivo, edad,trajes, area="informatica"}) =>
+{ 
     console.log({nombre})
     console.log({codeName})
     console.log({vivo})

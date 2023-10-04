@@ -30,4 +30,12 @@ console.log(devolverTrue() || devolverFalse())
 console.log(devolverFalse() || devolverTrue()) 
 
 
+console.warn("ejemplos")
 
+const soyNull = null;
+const sotFalse = false;
+const soyUndefined = undefined;
+
+const a1 = false && 'Hola mundo' && 150;
+
+console.log({a1})

@@ -33,9 +33,13 @@ console.log(devolverFalse() || devolverTrue())
 console.warn("ejemplos")
 
 const soyNull = null;
-const sotFalse = false;
+const soyFalse = false;
 const soyUndefined = undefined;
 
 const a1 = false && 'Hola mundo' && 150;
+const a2 = 'Hola' && 'Mundo' && soyFalse && true;
+const a3 = soyFalse || 'Ya no soy Falso';
+const a4 = soyFalse || soyUndefined || soyNull || 'Ya no soy Falso de nuevo' || true;
+const a5 = soyFalse || soyUndefined || devolverTrue() || 'Ya no soy falso de nuevo' || true;
 
-console.log({a1})
+console.log({a1, a2,a3,a4,a5})
